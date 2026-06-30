@@ -1,0 +1,121 @@
+{
+  "name": "City Library",
+  "address": "123 Main St",
+  "counter": 1,
+  "books": [
+    {
+      "title": "Art of war",
+      "author": "Sun tzu",
+      "isbn": "23",
+      "genre": "military tactics,strategy",
+      "copies_total": 1,
+      "copies_available": 1,
+      "published_year": 2004
+    },
+    {
+      "title": "Crime & Punishment",
+      "author": "Fyodor dostoesky",
+      "isbn": "44",
+      "genre": "Physicology",
+      "copies_total": 2,
+      "copies_available": 2,
+      "published_year": 2009
+    },
+    {
+      "title": "The Incoherence of the Philosophers",
+      "author": "Imam al Ghazali",
+      "isbn": "2",
+      "genre": "Philisophy,theology",
+      "copies_total": 2,
+      "copies_available": 2,
+      "published_year": 2003
+    },
+    {
+      "title": "ON WAR",
+      "author": "Carl von Clausewitz",
+      "isbn": "4",
+      "genre": "military stategy",
+      "copies_total": 1,
+      "copies_available": 1,
+      "published_year": 1999
+    },
+    {
+      "title": "History of Ottoman empire",
+      "author": "Me",
+      "isbn": "33",
+      "genre": "history",
+      "copies_total": 2,
+      "copies_available": 2,
+      "published_year": 2000
+    },
+    {
+      "title": "A Concise History of Pakistan",
+      "author": "Dr. M.R. Kazimi",
+      "isbn": "69",
+      "genre": "history",
+      "copies_total": 2,
+      "copies_available": 2,
+      "published_year": 1968
+    },
+    {
+      "title": "The Body: A Guide for Occupants",
+      "author": "Bill Bryson",
+      "isbn": "55",
+      "genre": "human anatomy",
+      "copies_total": 3,
+      "copies_available": 3,
+      "published_year": 2006
+    },
+    {
+      "title": "A Short History of Nearly Everything",
+      "author": "Bill Bryson",
+      "isbn": "66",
+      "genre": "history of science",
+      "copies_total": 1,
+      "copies_available": 1,
+      "published_year": 2000
+    },
+    {
+      "title": "Astrophysics for People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "isbn": "22",
+      "genre": "cosmos,black holes",
+      "copies_total": 2,
+      "copies_available": 2,
+      "published_year": 2005
+    },
+    {
+      "title": "A Thousand Splendid Suns",
+      "author": "Khaled Hosseini",
+      "isbn": "56",
+      "genre": "domestic fiction",
+      "copies_total": 2,
+      "copies_available": 2,
+      "published_year": 2005
+    }
+  ],
+  "members": [
+    {
+      "member_id": "4",
+      "name": "Asim",
+      "email": "as@gmail.com",
+      "phone": "92888",
+      "membership_type": "basic",
+      "join_date": "2026-06-29",
+      "borrowed_books": []
+    }
+  ],
+  "librarians": [],
+  "transactions": [
+    {
+      "txn_id": "TXN-0001",
+      "member_id": "4",
+      "isbn": "69",
+      "borrow_date": "2026-06-29",
+      "due_date": "2026-07-13",
+      "return_date": "2026-06-29",
+      "fine": 0,
+      "status": "returned"
+    }
+  ]
+}
