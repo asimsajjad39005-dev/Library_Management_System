@@ -1,4 +1,4 @@
-# 📚 Library Management System
+# Library Management System
 
 A fully object-oriented Library Management System built in Python.
 
